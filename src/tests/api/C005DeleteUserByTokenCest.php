@@ -1,5 +1,5 @@
 <?php
-namespace Harsh\Testcept;
+namespace esharsh\Testcept;
 class C005DeleteUserByTokenCest
 {
     protected $token;

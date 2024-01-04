@@ -1,5 +1,5 @@
 <?php
-namespace Harsh\Testcept;
+namespace esharsh\Testcept;
 class C001CreateUserCest
 {
     public function _before(ApiTester $I)

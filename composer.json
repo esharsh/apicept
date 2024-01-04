@@ -1,9 +1,9 @@
 {
-    "name": "harsh/testcept",
+    "name": "esharsh/testcept",
     "description": "Testing apis",
     "autoload": {
         "psr-4": {
-            "Harsh\\Testcept\\": "src/"
+            "esharsh\\Testcept\\": "src/"
         }
     },
     "authors": [

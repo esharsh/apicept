@@ -1,5 +1,5 @@
 <?php 
-namespace Harsh\Testcept;
+namespace esharsh\Testcept;
 class C002UserLoginCheckCept
 {
     public function _before(ApiTester $I)
