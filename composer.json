@@ -7,7 +7,7 @@
         }
     },
     "config": {
-        "vendor-dir": "./"
+        "vendor-dir": "./app"
     },
     "authors": [
         {
@@ -21,10 +21,5 @@
         "codeception/module-asserts": "^1.0.0",
         "codeception/module-rest": "^2.0",
         "codeception/module-sequence": "^2.0"
-    },
-    "scripts": {
-        "post-package-install": [
-            "php -r \"copy('./vendor/src/test/*', './');\""
-        ]
     }
 }
