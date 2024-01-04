@@ -1,5 +1,4 @@
 <?php
-namespace esharsh\Testcept;
 class C003GetUserByTokenCest
 {
     protected $token;

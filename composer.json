@@ -6,6 +6,9 @@
             "esharsh\\Testcept\\": "src/"
         }
     },
+    "config": {
+        "vendor-dir": "./"
+    },
     "authors": [
         {
             "name": "Harsh Pawar",

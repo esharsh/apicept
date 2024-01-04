@@ -1,5 +1,4 @@
 <?php
-namespace esharsh\Testcept;
 class C004UpdateUserByTokenCest
 {
     protected $token;
