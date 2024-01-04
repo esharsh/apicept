@@ -1,0 +1,22 @@
+{
+    "name": "harsh/testcept",
+    "description": "Testing apis",
+    "autoload": {
+        "psr-4": {
+            "Harsh\\Testcept\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Harsh Pawar",
+            "email": "harsh.pawar@enigmaticsmile.com"
+        }
+    ],
+    "require": {
+        "codeception/codeception": "^4.2",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0",
+        "codeception/module-rest": "^2.0",
+        "codeception/module-sequence": "^2.0"
+    }
+}
