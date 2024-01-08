@@ -6,15 +6,17 @@
             "esharsh\\Testcept\\": "src/"
         }
     },
-    "config": {
-        "vendor-dir": "../../../src/"
-    },
     "authors": [
         {
             "name": "Harsh Pawar",
             "email": "harsh.pawar@enigmaticsmile.com"
         }
     ],
+    "scripts": {
+        "post-install-cmd": [
+            "php -r \"copy('src/api.suite.yml', './api.suite.yml');\""
+        ]
+    },
     "require": {
         "codeception/codeception": "^4.2",
         "codeception/module-phpbrowser": "^1.0.0",
