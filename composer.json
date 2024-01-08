@@ -14,8 +14,12 @@
     ],
     "scripts": {
         "post-install-cmd": [
-            "php -r \"copy('./vendor/esharsh/testcept/src/api.suite.yml', './api.suite.yml');\"",
-            "rm -rf src"
+            "php -r \"copy('src/tests/api/C001CreateUserCest.php', './../../../tests/api/C001CreateUserCest.php');\"",
+            "php -r \"copy('src/tests/api/C002UserLoginCheckCept.php', './../../../tests/api/C002UserLoginCheckCept.php');\"",
+            "php -r \"copy('src/tests/api/C003GetUserByTokenCest.php', './../../../tests/api/C003GetUserByTokenCest.php');\"",
+            "php -r \"copy('src/tests/api/C004UpdateUserByTokenCest.php', './../../../tests/api/C004UpdateUserByTokenCest.php');\"",
+            "php -r \"copy('src/tests/api/C005DeleteUserByTokenCest.php', './../../../tests/api/C005DeleteUserByTokenCest.php');\"",
+            "php -r \"copy('src/tests/api.suit.yml', './../../tests/api.suit.yml');\""
         ]
     },
     "require": {
