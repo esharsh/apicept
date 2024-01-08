@@ -14,7 +14,8 @@
     ],
     "scripts": {
         "post-install-cmd": [
-            "php -r \"copy('src/api.suite.yml', './api.suite.yml');\""
+            "php -r \"copy('./vendor/esharsh/testcept/src/api.suite.yml', './api.suite.yml');\"",
+            "rm -rf src"
         ]
     },
     "require": {
