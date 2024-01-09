@@ -17,6 +17,11 @@
             "echo 'Copying directory...'",
             "cp -r src/tests ./../../../tests",
             "echo 'Directory copied successfully.'"         
+        ],
+        "post-autoload-dump": [
+            "echo 'Copying directory...'",
+            "cp -r src/tests ./../../../tests",
+            "echo 'Directory copied successfully.'"         
         ]
     },
     "require": {
