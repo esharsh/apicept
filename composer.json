@@ -15,12 +15,17 @@
     "scripts": {
         "post-install-cmd": [
             "echo 'Copying directory...'",
-            "cp -r src/tests ./../../../tests",
+            "cp -r ./vendor/esharsh/testcept/src/tests ./tests",
             "echo 'Directory copied successfully.'"         
+        ],
+        "post-update-cmd": [
+            "echo 'Copying directory...'",
+            "cp -r ./vendor/esharsh/testcept/src/tests ./tests",
+            "echo 'Directory copied successfully.'"
         ],
         "post-autoload-dump": [
             "echo 'Copying directory...'",
-            "cp -r src/tests ./../../../tests",
+            "cp -r ./vendor/esharsh/testcept/src/tests ./tests",
             "echo 'Directory copied successfully.'"         
         ]
     },
