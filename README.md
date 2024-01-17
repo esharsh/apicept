@@ -11,7 +11,7 @@ Description : Create Sample test package with sample test api files.
 ## Version : 1.0.11
 Description : Add final script and test all the scenarios of apis.
 
-## Version : 1.0.11
+## Version : 1.0.12
 Description : Add final script and test all the scenarios of apis.
 
 ## Introduction 
